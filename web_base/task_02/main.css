@@ -1,24 +1,100 @@
 body{
-    background-color: dimgrey;
+    background-color: #dedede;
+    margin: 0;
 }
 
-ul{
-    margin: 0 0 0 18px
-}
 .head{
-    background-color: black;
+    background-color: #333333;
+    width: 100%;
+    height: 60px;
+    border: 0;
+    padding: 0 auto;
+    margin: 0;
+/*    position:relative;*/
+    display: block;
 }
+
+.head h1 {
+    color: white;
+    position: relative;
+    
+    text-align: left;
+    display: inline;
+}
+
+
+#index_list{
+    float: right;
+}
+#index_list li{
+    display: inline;
+}
+#index_list li a{
+	font-style: normal;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
 
 .content{
+    display: block;
     background-color: white;
+    border-width: 0px 3px 3px 0px;
+    border-color: #848484;
+    border-style: solid;
+    padding: 20px;
+    margin: 10px 20px;
+}
+
+#pic_box {
+    border: solid 1px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+#pic_box ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+#pic_box img{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 8px auto;
+    text-align: center;
+    display: inline;
+}
+
+#table {
+    width: 100%;
+    border-collapse: collapse;    
+    border-spacing: 2px;
+    border: 1;
+}
+
+#table th tr {
+	border: 1;
+}
+
+#table th {
+    background-color: black;
+    color: white;
+    border: 0 2px;
+    border-left-color: darkgray;
 }
 
 .foot {
 	background-color: black;
-    align-content: center
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin-bottom: 0px
 }
 .foot>p{
-	color: white;
-    font-size: 16px;
-    align-content: center
+    color: white;
+    padding: 20px 0px;
 }
